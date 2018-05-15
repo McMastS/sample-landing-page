@@ -1,27 +1,50 @@
 body {
-	font: 'Raleway', sans-serif;
-    color: rgba(0,0,0,.5);
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: .5em;
-    top: 15%;
-	background: linear-gradient(to right, red , yellow); /* Standard syntax */
+	font-family: 'Noto Sans', sans-serif;
 }
 
 h1 {
-    font: 600 3.5em 'Raleway', sans-serif;
-    color: rgba(0,0,0,.5);
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: .5em;
-    width: 100%;
-
+	font-family: 'Permanent Marker', cursive;
 }
 
-h3 {
-	  font: 900 1em 'Raleway', sans-serif;
-    color: rgba(0,0,0,.5);
-    text-align: center;
-    text-transform: none;
-    letter-spacing: 0.01em;
+label {
+	font-weight: 700;
+}
+
+.header {
+	color: #fff;
+}
+
+.landing-background {
+  background-image: url("https://images.unsplash.com/photo-1486630369738-8ca16b6a4134?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=418e2c4579c9b6111fb45f8bbfd7e60e&auto=format&fit=crop&w=2100&q=80");
+/*	background: linear-gradient(rgb(0, 255, 255), rgb(51, 204, 142));*/	
+  height: 550px;
+	padding-top: 40px;
+}
+
+.btn {
+	border-radius: 3px;
+	border-color: #82ca21;
+}
+
+.btn-success {
+	background-color: #82ca21;
+}
+
+.btn-success:hover {
+	background-color: #82ca21;
+}
+
+.main-form {
+	border-radius: 5px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	margin: 10px;
+	background-color: #FFF;
+	box-shadow: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	color: #000;
+}
+
+.stats {
+	max-width: 100%;
 }
