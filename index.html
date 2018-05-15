@@ -1,17 +1,89 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
   <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <title>Bakground Generator</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-  </head>
-  <body id="gradient">
-    <h1>Background Generator</h1>
-    <input type="color" class="color1" name="color1" value="#ff0000">
-    <input type="color" class="color2" name="color2" value="#0000ff">
-    <button>Randomize</button>
-    <h3>Select your gradient</h3>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <script type="text/javascript" src="script.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Noto+Sans|Permanent+Marker" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <div class="landing-background container-fluid">
+    	<div class="container header">
+	    	<div class="row">
+	    		<div class="col-md-5">
+	    			<img src="https://cdn2.hubspot.net/hub/412965/hubfs/eMoney-logo-white.png?t=1526400091709&width=375&height=148&name=eMoney-logo-white.png" alt="eMoney" sizes="(max-width:450px) 100vw 450px">
+			    	<h3>Comprehensive Financial Technology for Advisors and Firms</h3>
+			    	<p>eMoney’s wealth management platform helps financial professionals improve their workflow, strengthen the advisor-client relationship, and differentiate and grow their businesses.</p>
+			    	<img class="stats" src="https://info.emoneyadvisor.com/hs-fs/hubfs/freetrial.lp.bizstats.png?t=1526400091709&width=1370&name=freetrial.lp.bizstats.png">
+	    		</div>
+		    	<form class="main-form col-md-6 container">
+					  <h5>Start your 14 day free trial now!</h5>
+					  <div class="form-row">
+					    <div class="form-group col-md-6">
+					      <label for="inputFirstName">First Name</label>
+					      <input type="text" class="form-control" id="inputFirstName" placeholder="Jordan" required>
+					    </div>
+					    <div class="form-group col-md-6">
+					      <label for="inputLastName">Last Name</label>
+					      <input type="text" class="form-control" id="inputLastName" placeholder="Smith" required>
+					    </div>
+					  </div>
+					  <div class="form-group">
+					    <label for="companyName">Company Name</label>
+					    <input type="text" class="form-control" id="inputCompanyName" placeholder="Microsoft" required>
+					  </div>
+					  <div class="form-group">
+					    <label for="inputCompanyEmail">Company Email</label>
+					    <input type="email" class="form-control" id="inputCompanyEmail" placeholder="jordan@microsoft.com" required>
+					  </div>
+				    <div class="form-group">
+				      <label for="inputCity">City</label>
+				      <input type="text" class="form-control" id="inputCity" placeholder="Seattle" required>
+				    </div>
+				    <div class="form-group">
+				      <label for="inputPhone">Phone</label>
+				      <input type="tel" class="form-control" id="inputPhone" placeholder="(999) 999-9999" required>
+				    </div>
+				    <div class="form-group">
+				      <label for="inputPassword">Password</label>
+				      <input type="password" class="form-control" id="inputPassword" placeholder="xP:53fdht(./!" required>
+				    </div>
+				    <div class="form-group">
+				      <label for="inputReferralCode">Referral Code</label>
+				      <input type="text" class="form-control" id="inputReferralCode" placeholder="Optional">
+				    </div>
+				    <div class="form-group">
+				      <label for="input">How did you hear about us?</label>
+				      <input type="text" class="form-control" id="inputReferral" placeholder="Wall Street Journal">
+				    </div>
+					  <button type="submit" class="btn btn-success">Start 30-day free trial</button>
+					</form>
+				</div>
+				<!-- End of form row-->
+    	</div>
+    	<!-- End of container for background and form -->
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-md-5">
+    				<h2>Here are a several features you'll have access to with your 14 day free trial.</h2>
+    			</div>
+    		</div>
+    	</div>
+    	
+    </div>
+
+    <!-- Bootstrap Provided JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.buttflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <!-- My JS -->
+    <script src="/script.js"></script>
   </body>
 </html>
